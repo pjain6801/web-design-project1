@@ -1,0 +1,135 @@
+*{
+    background-color: rgb(250, 240, 252);
+    font-family: Optima;
+    font-style: normal;
+
+}
+
+.header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 50px;
+
+}
+.alternative-text {
+    padding-bottom: 10px;
+}
+
+ul{ 
+    font-size: px;
+}
+.h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.p {
+    font-size: 17px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+    padding-top: 150px;
+    position: relative;
+}
+
+/*  CSS for nav bar */
+
+.header-bar {
+    text-align: center;
+    padding-top: 45px;
+  }
+  
+    .header-bar > .nav > .main-menu {
+        display: inline-block;
+        padding: 3px 220px;
+  
+        background-color: rgba(0,150,300,.2);
+        position: absolute;
+        top:  50px;
+        right: 0px;
+        left: 0px;
+        z-index: 200;
+    }
+  
+    .header-bar > .nav > .main-menu > li {
+        display: inline-block;
+        padding: 16px;
+        position: relative;
+    }
+  
+    .header-bar > .nav > .main-menu > li > .sub-menu {
+        display: none;
+    }
+  
+    .header-bar > .nav > .main-menu > li:hover {
+        background-color: rgba(0,150,300,.8);
+    }
+  
+    .header-bar > .nav > .main-menu > li:hover > .sub-menu {
+        display: block;
+        position: absolute;
+        top: 48px;
+        left: 0px;
+        background-color: rgba(0,0,0,0.7);
+    }
+  
+    .header-bar > .nav > .main-menu > li:nth-child(4):hover > .sub-menu {
+        left: auto;
+        right: 0;
+    }
+  
+    .header-bar > .nav > .main-menu > li:nth-child(5):hover > .sub-menu {
+        left: auto;
+        right: 0;
+    }
+  
+    .header-bar > .nav > .main-menu > li > .sub-menu > li {
+        padding: 16px;
+        list-style: none;
+    }
+  
+    .header-bar > .nav > .main-menu > li > .sub-menu > li:hover {
+        background-color: rgba(0,150,300,.8);
+    }
+  
+    .header-bar > .nav > .main-menu > li > a {
+        color: black;
+        font-family: Optima;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;;
+    }
+    .header-bar > .nav > .main-menu > li > .sub-menu > li > a {
+        color: black;
+        font-size: 80%;
+        font-family: Optima;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+  
+/*  CSS for Gallery Page */
+
+   .pic-one{
+        padding-right: 60px;
+    }
+
+    .pic-two{
+        padding-right: 60px;
+    }
+
+    .pic-three{
+        padding-right: 60px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
